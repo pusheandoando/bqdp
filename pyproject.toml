@@ -4,10 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bqdp"
-version = "1.0.0"
-description = "Universal integer-based recommendation system with online learning"
-requires-python = ">=3.10"
-dependencies = []
+version = "1.0.1"
+description = "Universal integer-based sequential recommendation with online learning and conformal candidate sets"
+requires-python = ">=3.12"
+authors = [
+    { name = "Christian (@pusheandoando)" },
+]
+dependencies = [
+    "numpy==2.5.3"
+]
 
 [project.urls]
 Homepage = "https://github.com/pusheandoando/bqdp"
